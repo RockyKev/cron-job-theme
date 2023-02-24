@@ -13,8 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == TODO == 
 [] - create your own api
 [] - require plugins
+[] - verify that creating a post event also creates a cron event. Maybe link the two?
+[] - when a cron job fires, it checks the status, 'archives' the post and makes a new post. 
 [] - 
-
 
 == Changelog ==
 = 0.6 = "Tonight's the Night" - Rod Stewart
@@ -30,8 +31,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = 0.2 = "Manic Monday" - The Bangles
 * Include plugins in a alert
+* Forces you to have plugins before activating.
 * Change the login page
 * Remove all the unnessary stuff
+
 
 = 0.1 = "Time After Time" - Cyndi Lauper
 * Remove Menus [Done]
